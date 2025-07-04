@@ -143,7 +143,18 @@ mlflow ui
 - Curva ROC
 - Curva Precision-Recall
 
+**Interfaces disponíveis**:
+- **Experimentos**: Visualize todos os runs e suas métricas
+- **Model Registry**: Gerencie versões dos modelos
+- **Artefatos**: Acesse gráficos e arquivos salvos
+
 ## Experimentos
+
+### Interface do MLflow - Experimentos
+
+A interface do MLflow permite visualizar todos os experimentos executados, incluindo parâmetros, métricas e artefatos salvos:
+
+![Experimentos MLflow](images/experiments.png)
 
 ### Estrutura dos Experimentos
 
@@ -154,6 +165,12 @@ mlflow ui
   - Gráficos de performance
   - Configurações do ambiente
 
+### Model Registry - Modelos Versionados
+
+O MLflow Model Registry permite gerenciar diferentes versões dos modelos treinados:
+
+![Model Registry](images/models.png)
+
 ### Tracking Automático
 
 O MLflow registra automaticamente:
@@ -161,6 +178,12 @@ O MLflow registra automaticamente:
 - Métricas de performance
 - Artefatos (gráficos, modelo)
 - Configuração do ambiente
+
+### Storage de Artefatos - MinIO Bucket
+
+Os artefatos são armazenados no bucket MinIO configurado, permitindo persistência e compartilhamento:
+
+![MinIO Bucket](images/bucket.png)
 
 ## Dependências
 
