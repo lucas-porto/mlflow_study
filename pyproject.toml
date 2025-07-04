@@ -1,0 +1,24 @@
+[project]
+name = "mlflow-study"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lucas Porto",email = "52680466+lucas-porto@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "scikit-learn (>=1.7.0,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "mlflow (>=3.1.1,<4.0.0)",
+    "ruff (>=0.12.2,<0.13.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "boto3 (>=1.39.2,<2.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
